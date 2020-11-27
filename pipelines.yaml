@@ -18,6 +18,12 @@ environments:
         secret:
           name: webhook-secret-dev-taxi
           namespace: cicd
+    - name: bus
+      source_url: http://github.com/hanzala1234/taxi.git
+      webhook:
+        secret:
+          name: webhook-secret-dev-bus
+          namespace: cicd
   name: dev
   pipelines:
     integration:

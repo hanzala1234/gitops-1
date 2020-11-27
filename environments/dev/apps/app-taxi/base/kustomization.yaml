@@ -1,3 +1,4 @@
 bases:
 - ../services/taxi
+- ../services/bus
 - ../../../env/base
